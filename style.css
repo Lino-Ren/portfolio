@@ -52,3 +52,11 @@ html{
   .mb3{
     margin-bottom: 3em;
   }
+
+  .box{
+    height: 100px; width: 100px;
+    position: fixed; right: 25px; top: 25px;
+    border: 5px;
+    border-color: aqua;
+    margin: 5px;
+  }
