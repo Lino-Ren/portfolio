@@ -56,11 +56,12 @@ html{
     padding: 18px 30px;
     border-radius: 6px;
     transition: .3s;
-    position: relative
-    top: 50px
-    right: 50px
+    position: relative;
+    top: 50px;
+    right: 50px;
     font-size: 16px;
   }
+
   .menu_button:hover {
     background: #13c3ac;
   }
