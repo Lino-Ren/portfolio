@@ -13,17 +13,14 @@ html{
     color: lime;
   }
 
-  a{
-    color:#00ffff;
-    text-decoration: none;
-  }
-
   *{
     text-align: center;
     line-height: 200%;
   }
 
   .link-character{
+    color:#00ffff;
+    text-decoration: none;
     font-weight:200;
   }
 
@@ -52,11 +49,15 @@ html{
   .mb3{
     margin-bottom: 3em;
   }
-
-  .box{
-    height: 100px; width: 100px;
-    position: fixed; right: 25px; top: 25px;
-    border: 5px;
-    border-color: aqua;
-    margin: 5px;
+  .menu_button {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    background: #333;
+    padding: 18px 30px;
+    border-radius: 6px;
+    transition: .3s;
+  }
+  .menu_button:hover {
+    background: #13c3ac;
   }
