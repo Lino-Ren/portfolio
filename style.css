@@ -51,17 +51,43 @@ html{
   }
   .menu_button {
     color: #fff;
-    font-weight: bold;
-    background: #333;
-    padding: 18px 30px;
-    border-radius: 6px;
-    transition: .3s;
+    font-size: 150;
+    font-weight: bolder;
+    background: transparent;
+    width: 130px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border: 2px solid #fff;
     position: relative;
+    z-index: 1;
+    display: block;
+    overflow: hidden;
+    transition: .3s;
+
+    position: absolute;
     top: 50px;
     right: 50px;
     font-size: 16px;
   }
 
+  .menu_button::before{
+    content: "";
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: -60px;
+    z-index: -1;
+    border-right: 60px solid transparent;
+    border-bottom: 60px solid #fff;
+    transform: translateX(-100%);
+    transition: transform ease .3s;
+  }
+
   .menu_button:hover {
-    background: #13c3ac;
+    color: #333;
+  }
+
+  .menu_button:hover::before{
+    transform: translateX(0);
   }
