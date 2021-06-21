@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-html{
+  html{
     font-size: 125%
   }
 
@@ -54,12 +54,11 @@ html{
     font-size: 150;
     font-weight: bolder;
     background: transparent;
-    width: 130px;
-    height: 60px;
+    width: 128px;
+    height: 58px;
     text-align: center;
     line-height: 60px;
     border: 2px solid #fff;
-    position: relative;
     z-index: 1;
     display: block;
     overflow: hidden;
